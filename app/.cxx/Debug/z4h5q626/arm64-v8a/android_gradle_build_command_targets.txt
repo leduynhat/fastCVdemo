@@ -1,0 +1,10 @@
+Executable : /usr/bin/ninja
+arguments : 
+-C
+/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a
+fastcvFeatDetect
+fastcvImgProc
+fastcvImgTransform
+fastcvUtils
+jvmArgs : 
+

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
 	<PreferenceScreen
 		android:title="@string/appName_text"
-		android:summary="@string/appName">
+		android:summary="@string/appName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
 	</PreferenceScreen>
 </PreferenceScreen>

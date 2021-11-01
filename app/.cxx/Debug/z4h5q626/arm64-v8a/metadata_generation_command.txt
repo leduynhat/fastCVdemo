@@ -1,0 +1,27 @@
+                    Executable : /usr/bin/cmake
+arguments : 
+-H/home/nhatld5/AndroidStudioProjects/FastcvDemo/app
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=23
+-DANDROID_PLATFORM=android-23
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/home/nhatld5/Android/Sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/home/nhatld5/Android/Sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/usr/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-B/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a
+-GNinja
+-DANDROID_ARM_NEON=TRUE
+-DVAR_NAME=ARG_1 ARG_2
+-DANDROID_CPP_FEATURES=rtti exceptions
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

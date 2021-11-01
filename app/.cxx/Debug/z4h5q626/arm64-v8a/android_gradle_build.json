@@ -1,0 +1,91 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/CMakeLists.txt",
+    "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/CMakeLists.txt",
+    "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/CMakeLists.txt",
+    "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/CMakeLists.txt",
+    "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/CMakeLists.txt",
+    "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/featureDetection/CMakeLists.txt",
+    "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/usr/bin/ninja",
+      "-C",
+      "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/usr/bin/ninja",
+    "-C",
+    "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "fastcvImgProc-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/usr/bin/ninja",
+        "-C",
+        "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+        "fastcvImgProc"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "fastcvImgProc",
+      "output": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgProc.so",
+      "runtimeFiles": [
+        "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so"
+      ]
+    },
+    "fastcvUtils-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/usr/bin/ninja",
+        "-C",
+        "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+        "fastcvUtils"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "fastcvUtils",
+      "output": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so",
+      "runtimeFiles": []
+    },
+    "fastcvImgTransform-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/usr/bin/ninja",
+        "-C",
+        "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+        "fastcvImgTransform"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "fastcvImgTransform",
+      "output": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgTransform.so",
+      "runtimeFiles": [
+        "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so"
+      ]
+    },
+    "fastcvFeatDetect-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/usr/bin/ninja",
+        "-C",
+        "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+        "fastcvFeatDetect"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "fastcvFeatDetect",
+      "output": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvFeatDetect.so",
+      "runtimeFiles": [
+        "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

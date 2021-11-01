@@ -1,0 +1,109 @@
+[
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvUtils_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/FPSCounter.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/FPSCounter.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/FPSCounter.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvUtils_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/CameraRendererRGB565GL2.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/CameraRendererRGB565GL2.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/CameraRendererRGB565GL2.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvUtils_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/CameraUtil.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/CameraUtil.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/CameraUtil.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvUtils_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/FastCVSampleRenderer.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/FastCVSampleRenderer.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/FastCVSampleRenderer.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvUtils_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/FastCVUtil.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/FastCVUtil.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/utils/FastCVUtil.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvFeatDetect_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/featureDetection  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/featureDetection/CMakeFiles/fastcvFeatDetect.dir/Corner.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/featureDetection/Corner.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/featureDetection/Corner.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvFeatDetect_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/featureDetection  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/featureDetection/CMakeFiles/fastcvFeatDetect.dir/__/About.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgProc_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageProcessing  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/Filter.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/Filter.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/Filter.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgProc_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageProcessing  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/FilterCorr.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/FilterCorr.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/FilterCorr.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgProc_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageProcessing  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/ImageGradient.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/ImageGradient.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/ImageGradient.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgProc_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageProcessing  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/ImgDiff.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/ImgDiff.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageProcessing/ImgDiff.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgProc_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageProcessing  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/__/About.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgTransform_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageTransformation  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/Affine.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/Affine.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/Affine.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgTransform_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageTransformation  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/Rotate.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/Rotate.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/Rotate.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgTransform_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageTransformation  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/Scale.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/Scale.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/Scale.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgTransform_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageTransformation  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/ScaleDownMN.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/ScaleDownMN.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/ScaleDownMN.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgTransform_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageTransformation  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/Warp.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/Warp.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/imageTransformation/Warp.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgTransform_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageTransformation  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/__/About.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp"
+}
+]

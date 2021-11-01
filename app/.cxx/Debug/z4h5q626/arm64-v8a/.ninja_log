@@ -1,0 +1,23 @@
+# ninja log v5
+0	74	1635736512	src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/FPSCounter.cpp.o	e380663b6e540406
+1	111	1635736512	src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/FastCVUtil.cpp.o	bc3c4bdb483efd4e
+1	165	1635736512	src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/CameraUtil.cpp.o	d480ac1501c5c535
+0	179	1635736512	src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/CameraRendererRGB565GL2.cpp.o	ec4c5bc36856a4df
+1	185	1635736512	src/main/cpp/source/apis/featureDetection/CMakeFiles/fastcvFeatDetect.dir/Corner.cpp.o	48ee3b9a3e6a21d8
+1	188	1635736512	src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/FilterCorr.cpp.o	8c8d04dd230a235
+1	194	1635736512	src/main/cpp/source/apis/featureDetection/CMakeFiles/fastcvFeatDetect.dir/__/About.cpp.o	8519a1fdba06b610
+1	209	1635736512	src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/Filter.cpp.o	8686ae3ffe5f01bf
+2	214	1635736512	src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/ImageGradient.cpp.o	b24418b318035534
+1	242	1635736512	src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/FastCVSampleRenderer.cpp.o	dd07f6ef5f0ecea7
+112	286	1635736512	src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/__/About.cpp.o	fdbf8529fd9100e9
+75	309	1635736512	src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/ImgDiff.cpp.o	130b41692ac65ea3
+185	339	1635736512	src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/Scale.cpp.o	8274d60e1199cff2
+165	362	1635736512	src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/Affine.cpp.o	ad2d9922bfd0d8cd
+209	372	1635736512	src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/__/About.cpp.o	5e07f0c504e026bb
+195	383	1635736512	src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/Warp.cpp.o	4ee5e37dff6b027e
+179	400	1635736512	src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/Rotate.cpp.o	e96f9f26c619c2cf
+189	408	1635736512	src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/ScaleDownMN.cpp.o	571ffcd21f0ec0d
+242	419	1635736512	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so	984107a2ce8c33e6
+419	463	1635736512	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvFeatDetect.so	8486f65cc42b46e
+420	465	1635736512	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgProc.so	f6dc126d273faa7a
+420	470	1635736512	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgTransform.so	859a6f9d10cf5c04
