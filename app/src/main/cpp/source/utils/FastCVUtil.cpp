@@ -12,7 +12,7 @@
 
 FastCVUtil util;
 
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_init
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_init
 (
    JNIEnv* env,
    jobject obj
@@ -30,7 +30,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_init
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_cameraFrameTick
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_cameraFrameTick
 (
    JNIEnv*  env,
    jobject  obj
@@ -41,7 +41,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_cameraFrame
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT jfloat JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_getCameraFPS
+extern "C" JNIEXPORT jfloat JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_getCameraFPS
 (
    JNIEnv*  env,
    jobject  obj
@@ -52,7 +52,7 @@ JNIEXPORT jfloat JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_getCamera
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT jfloat JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_getFastCVProcessTime
+extern "C" JNIEXPORT jfloat JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_getFastCVProcessTime
 (
    JNIEnv*  env,
    jobject  obj

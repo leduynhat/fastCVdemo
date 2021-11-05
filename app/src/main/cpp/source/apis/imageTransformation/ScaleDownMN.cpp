@@ -74,9 +74,9 @@ struct CamScaleDownMNState
 
 };
 /// Application' state structure to hold global camScaleDownMNState for sample app. 
-static struct CamScaleDownMNState camScaleDownMNState; 
+static struct CamScaleDownMNState camScaleDownMNState;
 
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_cleanup
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_cleanup
 (
    JNIEnv * env,
    jobject obj
@@ -104,7 +104,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Sca
 
 }
 
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_update
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_update
 (
    JNIEnv*     env,
    jobject     obj,
@@ -287,11 +287,11 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Sca
     env->ReleaseByteArrayElements(img, jimgData, JNI_ABORT);
 }
 
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_setPreview
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_setPreview
 (
   JNIEnv*  env, 
-  jobject  obj, 
-  bool pre
+  jobject  obj,
+  jboolean pre
 )
 {
     camScaleDownMNState.preview = pre;
@@ -299,7 +299,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Sca
     return;
 }
 
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_setScaling
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_setScaling
 (
   JNIEnv*  env, 
   jobject  obj, 
@@ -311,11 +311,11 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Sca
     return;
 }
 
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_setScalePref
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_ScaleDownMN_setScalePref
 (
   JNIEnv*  env, 
   jobject  obj, 
-  bool scaleP
+  jboolean scaleP
 )
 {
     camScaleDownMNState.scalePref = scaleP;

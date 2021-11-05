@@ -142,7 +142,7 @@ void updateScaling( uint8_t *pSrc, uint32_t w, uint32_t h, uint8_t *pDst )
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Scale_cleanup
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Scale_cleanup
 (
    JNIEnv * env,
    jobject obj
@@ -167,7 +167,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Sca
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Scale_update
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Scale_update
 (
    JNIEnv*     env,
    jobject     obj,
@@ -279,7 +279,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Sca
 ///
 /// @param scaleFactor  Scaling Factor by which to downsample image
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Scale_setScaling
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Scale_setScaling
 (
   JNIEnv*  env, 
   jobject  obj, 

@@ -273,7 +273,7 @@ void colorConvertYUV420ToRGB565Renderer( const uint8_t* srcYUV420,
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL 
+extern "C" JNIEXPORT void JNICALL
    Java_com_qualcomm_fastcvdemo_utils_FastCVSampleRenderer_cleanup
 (
    JNIEnv * env, 
@@ -299,7 +299,7 @@ JNIEXPORT void JNICALL
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL 
+extern "C" JNIEXPORT void JNICALL
    Java_com_qualcomm_fastcvdemo_utils_FastCVSampleRenderer_surfaceChanged
 (
    JNIEnv * env, jobject obj,  
@@ -317,13 +317,10 @@ JNIEXPORT void JNICALL
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVSampleRenderer_render
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVSampleRenderer_render
 (
    JNIEnv * env, 
-   jobject obj, 
-   jbyteArray img, 
-   jint w, 
-   jint h
+   jobject obj
 )
 {
    if( state.cameraRenderer == NULL )
@@ -360,7 +357,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVSampleRenderer_r
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT jfloat JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVSampleRenderer_getGPUFPS
+extern "C" JNIEXPORT jfloat JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVSampleRenderer_getGPUFPS
 (
    JNIEnv*  env, 
    jobject  obj

@@ -90,7 +90,7 @@ void updateDiff( uint8_t *pSrc1, uint8_t *pSrc2, uint32_t w, uint32_t h, uint8_t
 	fcvImageDiffu8( pSrc1, pSrc2, w, h, pDst);
 }
 
-JNIEXPORT void JNICALL
+extern "C" JNIEXPORT void JNICALL
    Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_cleanup
 (
    JNIEnv * env,
@@ -122,7 +122,7 @@ JNIEXPORT void JNICALL
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL
+extern "C" JNIEXPORT void JNICALL
 	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_update
 (
    JNIEnv*     env,
@@ -258,14 +258,16 @@ JNIEXPORT void JNICALL
    env->ReleaseByteArrayElements( img, jimgData, JNI_ABORT );
 }
 
-JNIEXPORT void JNICALL
-	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_takeReferenceFrame()
+extern "C" JNIEXPORT void JNICALL
+	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_takeReferenceFrame(JNIEnv *env,
+                                                                                 jobject thiz)
 {
    imgDiffState.diffState = TAKE_REF_FRAME;
 }
 
-JNIEXPORT void JNICALL
-	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_resetReferenceFrame()
+extern "C" JNIEXPORT void JNICALL
+	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_resetReferenceFrame(JNIEnv *env,
+                                                                                  jobject thiz)
 {
    imgDiffState.diffState = NEED_RESET;
 }

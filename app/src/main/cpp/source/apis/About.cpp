@@ -26,7 +26,7 @@
 // Function Definitions
 //==============================================================================
 
-JNIEXPORT jstring JNICALL Java_com_qualcomm_fastcvdemo_apis_About_getFastCVVersion
+extern "C" JNIEXPORT jstring JNICALL Java_com_qualcomm_fastcvdemo_apis_About_getFastCVVersion
 (
    JNIEnv* env,
    jobject obj

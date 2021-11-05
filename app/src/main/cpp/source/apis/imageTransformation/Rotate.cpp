@@ -187,7 +187,7 @@ void updateRotate( uint8_t *pSrc, uint32_t w, uint32_t h, uint8_t *pDst)
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Rotate_cleanup
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Rotate_cleanup
 (
    JNIEnv * env,
    jobject obj
@@ -223,7 +223,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Rot
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Rotate_update
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Rotate_update
 (
    JNIEnv*     env,
    jobject     obj,
@@ -358,7 +358,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Rot
 ///
 /// @param rotateAngle  Angle that the image is rotated
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Rotate_setRotation
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Rotate_setRotation
 (
   JNIEnv*  env, 
   jobject  obj, 

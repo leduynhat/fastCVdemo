@@ -196,7 +196,7 @@ void updateWarp( uint8_t *pSrc, uint32_t w, uint32_t h, uint8_t *pDst)
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Warp_cleanup
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Warp_cleanup
 (
     JNIEnv * env, 
     jobject obj
@@ -254,7 +254,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_War
 ///
 /// @param warpType  Warp Factor by which to warp image
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Warp_setWarp
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Warp_setWarp
     (
         JNIEnv*  env, 
         jobject  obj, 
@@ -281,7 +281,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_War
 /// @param w Width of image
 /// @param y Height of height
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Warp_update
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Warp_update
 (
     JNIEnv*     env, 
     jobject     obj, 

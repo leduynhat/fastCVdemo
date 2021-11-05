@@ -448,7 +448,7 @@ void updateCorners( uint8_t* data, uint32_t w, uint32_t h )
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL
+extern "C" JNIEXPORT void JNICALL
    Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_cleanup
 (
    JNIEnv * env,
@@ -482,7 +482,7 @@ JNIEXPORT void JNICALL
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void
+extern "C" JNIEXPORT void
    JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_update
 (
    JNIEnv*     env,
@@ -599,7 +599,7 @@ JNIEXPORT void
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT int JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_getNumCorners
+extern "C" JNIEXPORT int JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_getNumCorners
 (
    JNIEnv*  env,
    jobject  obj
@@ -610,7 +610,7 @@ JNIEXPORT int JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setScaling
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setScaling
 (
    JNIEnv*  env,
    jobject  obj,
@@ -622,7 +622,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setFastCornerThreshold
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setFastCornerThreshold
 (
    JNIEnv*  env,
    jobject  obj,
@@ -634,7 +634,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setViewFinderEnable
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setViewFinderEnable
 (
    JNIEnv*  env,
    jobject  obj,
@@ -647,7 +647,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setOverlayPixelsEnable
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setOverlayPixelsEnable
 (
    JNIEnv*  env,
    jobject  obj,
@@ -659,7 +659,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setGaussianEnable
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setGaussianEnable
 (
    JNIEnv*  env,
    jobject  obj,
@@ -671,7 +671,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void
+extern "C" JNIEXPORT void
    JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_setDetection
 (
    JNIEnv*  env,
@@ -686,7 +686,7 @@ JNIEXPORT void
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT jstring
+extern "C" JNIEXPORT jstring
    JNICALL Java_com_qualcomm_fastcvdemo_apis_featureDetection_Corner_detectionMethod
 (
    JNIEnv*  env,

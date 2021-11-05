@@ -62,10 +62,7 @@ extern "C" {
       Java_com_qualcomm_fastcvdemo_utils_FastCVSampleRenderer_render
    (
       JNIEnv * env, 
-      jobject obj, 
-      jbyteArray img, 
-      jint w, 
-      jint h
+      jobject obj
    );
 
    //------------------------------------------------------------------------------

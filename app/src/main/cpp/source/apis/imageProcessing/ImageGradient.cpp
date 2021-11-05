@@ -138,7 +138,7 @@ static GradientState      gradientState;
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL
+extern "C" JNIEXPORT void JNICALL
    Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGradient_cleanup
 (
    JNIEnv * env,
@@ -176,7 +176,7 @@ JNIEXPORT void JNICALL
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGradient_update
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGradient_update
 (
    JNIEnv*     env,
    jobject     obj,
@@ -351,7 +351,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGr
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGradient_setGradientOrientation
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGradient_setGradientOrientation
 (
   JNIEnv*  env,
   jobject  obj,
@@ -363,7 +363,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGr
 	DPRINTF("set gradient");
 }
 
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGradient_setGradientType
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImageGradient_setGradientType
 (
   JNIEnv*  env,
   jobject  obj,

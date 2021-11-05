@@ -28,7 +28,7 @@ extern "C" {
   (
     JNIEnv*  env,
     jobject  obj,
-    bool pre
+    jboolean pre
   );
 
 
@@ -68,7 +68,7 @@ extern "C" {
 (
   JNIEnv*  env, 
   jobject  obj, 
-  bool scaleP
+  jboolean scaleP
   );
 
 }

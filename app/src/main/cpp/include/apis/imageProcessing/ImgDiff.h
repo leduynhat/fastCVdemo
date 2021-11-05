@@ -45,13 +45,15 @@ extern "C" {
    /// @brief Stores current frame as reference frame
    //---------------------------------------------------------------------------
    JNIEXPORT void JNICALL
-   	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_takeReferenceFrame();
+   	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_takeReferenceFrame(JNIEnv *env,
+																				 jobject thiz);
 
    //---------------------------------------------------------------------------
    /// @brief Resets reference frame to NULL
    //---------------------------------------------------------------------------
    JNIEXPORT void JNICALL
-   	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_resetReferenceFrame();
+   	Java_com_qualcomm_fastcvdemo_apis_imageProcessing_ImgDiff_resetReferenceFrame(JNIEnv *env,
+																				  jobject thiz);
 };
 
 #endif // IMGDIFF_H

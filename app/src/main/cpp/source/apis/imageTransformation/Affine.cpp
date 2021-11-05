@@ -141,7 +141,7 @@ void updateAffine( uint8_t *pSrc, uint32_t w, uint32_t h, uint8_t *pDst )
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Affine_cleanup
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Affine_cleanup
 (
    JNIEnv * env,
    jobject obj
@@ -164,7 +164,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Aff
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Affine_update
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Affine_update
 (
    JNIEnv*     env,
    jobject     obj,
@@ -271,7 +271,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Aff
 ///
 /// @param scaleFactor  Scaling Factor by which to downsample image
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Affine_setAffine
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransformation_Affine_setAffine
 (
   JNIEnv*  env, 
   jobject  obj, 

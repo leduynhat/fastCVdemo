@@ -165,7 +165,7 @@ void updateFilter( uint8_t *pSrc, uint32_t w, uint32_t h, uint8_t *pDst )
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL
+extern "C" JNIEXPORT void JNICALL
    Java_com_qualcomm_fastcvdemo_apis_imageProcessing_Filter_cleanup
 (
    JNIEnv * env,
@@ -197,7 +197,7 @@ JNIEXPORT void JNICALL
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_Filter_update
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_Filter_update
 (
    JNIEnv*     env,
    jobject     obj,
@@ -313,7 +313,7 @@ JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_Filter_
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
-JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_Filter_setFilter
+extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcessing_Filter_setFilter
 (
   JNIEnv*  env,
   jobject  obj,
