@@ -13,6 +13,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.PixelFormat;
 import android.hardware.Camera;
+import android.hardware.camera2.CameraDevice;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.os.Handler;
@@ -36,7 +37,8 @@ public abstract class GraphicalActivity extends Activity
 
    /** Android camera object */
    protected Camera                      mCamera;
-
+//   protected CameraDevice                mCameraNew;
+//   CameraDevice.StateCallback
    /** GL Surface view to render camera and corners via GPU */
    protected GLSurfaceView               mGLSurface = null;
 
@@ -104,7 +106,7 @@ public abstract class GraphicalActivity extends Activity
     * Camera callback to retrieve camera frames. 
     * 
     */
-   protected final Camera.PreviewCallback mCameraCallback = 
+   protected final Camera.PreviewCallback mCameraCallback =
       new Camera.PreviewCallback()
    {
       /**

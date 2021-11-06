@@ -33,6 +33,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLSurfaceView;
 import android.opengl.GLSurfaceView.EGLContextFactory;
+import android.util.Log;
 
 /**
  * @brief The FastCV sample application's renderer, provides
@@ -93,7 +94,8 @@ public class FastCVSampleRenderer
     * @param config 
     */
    public void onSurfaceCreated( GL10 gl, EGLConfig config ) 
-   {   
+   {
+       Log.i(TAG, "onSurfaceCreated: hello");
    }
 
    /**
@@ -175,7 +177,7 @@ public class FastCVSampleRenderer
      * getMatchingConfig 
      * @param egl 
      * @param display 
-     * @param configAtribs 
+//     * @param configAtribs
      * @return Returns the best config
      */
       private EGLConfig getMatchingConfig(EGL10 egl, EGLDisplay display,

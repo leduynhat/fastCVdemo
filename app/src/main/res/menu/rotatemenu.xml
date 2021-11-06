@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
         android:id="@+id/zero"
-        android:title="0 Degrees" />   
+        android:title="@string/_0_degrees" />
     <item
         android:id="@+id/ninety"
-        android:title="90 Degrees" />
+        android:title="@string/_90_degrees" />
     <item
         android:id="@+id/one_eighty"
-        android:title="180 Degrees" />    
+        android:title="@string/_180_degrees" />
     <item
         android:id="@+id/two_seventy"
-        android:title="270 Degrees" />  
+        android:title="@string/_270_degrees" />
     <item
         android:id="@+id/reset"
-        android:title="Reset" />	
+        android:title="@string/reset" />
 </menu>

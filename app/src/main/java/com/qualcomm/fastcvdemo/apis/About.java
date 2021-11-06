@@ -8,8 +8,10 @@ package com.qualcomm.fastcvdemo.apis;
  
 import com.qualcomm.fastcvdemo.R;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
+import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.util.Log;
  
@@ -27,7 +29,7 @@ public class About extends PreferenceActivity
       // Load JNI library
       Log.v( TAG, "About: load fastcvFeatDetect library");
       System.loadLibrary( "fastcvFeatDetect" );
-   };
+   }
 
    private PreferenceScreen aboutScreen;
 
@@ -36,7 +38,8 @@ public class About extends PreferenceActivity
    protected void onCreate( Bundle savedInstanceState ) 
    {
       super.onCreate(savedInstanceState);
-      addPreferencesFromResource( R.layout.about );
+      addPreferencesFromResource( R.xml.about );
+//      getFragmentManager().beginTransaction().replace(android.R.id.content, new AboutFragment()).commit();
       if (aboutScreen == null)
       {
          String fastcvVersion = getFastCVVersion();
@@ -52,5 +55,16 @@ public class About extends PreferenceActivity
    }
 
    //Native Function Declarations   
-   public native String getFastCVVersion(); 
+   public native String getFastCVVersion();
+
+   public static class AboutFragment extends PreferenceFragment
+   {
+      @SuppressLint("ResourceType")
+      @Override
+      public void onCreate(final Bundle savedInstanceState)
+      {
+         super.onCreate(savedInstanceState);
+         addPreferencesFromResource(R.xml.about);
+      }
+   }
 }

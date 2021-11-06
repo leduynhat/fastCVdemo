@@ -133,7 +133,7 @@ public class ImageGradient extends GraphicalActivity {
     
     /**
      * Sets the desired orientation. 
-     * @param gradientOrientaion Desired orientation
+//     * @param gradientOrientaion Desired orientation
      */
     public native void setGradientOrientation(int gradientOrientation);
     

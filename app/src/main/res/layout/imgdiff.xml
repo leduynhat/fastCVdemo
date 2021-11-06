@@ -27,8 +27,8 @@
         android:textOn=""
         android:textOff=""         
         android:checked="true"       
-        android:layout_alignParentRight="true"
-        android:layout_marginLeft="10dip"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dip"
         android:background="@android:drawable/btn_default"
         android:button="@drawable/start_stop_button">
     </ToggleButton>
@@ -40,8 +40,8 @@
         android:textOff=""         
         android:checked="false"       
         android:layout_below="@+id/startStopSwitch"
-        android:layout_alignParentRight="true"
-        android:layout_marginLeft="10dip"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dip"
         android:background="@android:drawable/btn_default"
         android:button="@drawable/diff_reset_button">
     </ToggleButton>

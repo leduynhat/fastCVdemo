@@ -56,3 +56,13 @@
 15	180	1636098258	src/main/cpp/source/apis/imageProcessing/CMakeFiles/fastcvImgProc.dir/ImageGradient.cpp.o	b24418b318035534
 180	234	1636098258	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgProc.so	f6dc126d273faa7a
 175	247	1636098258	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvFeatDetect.so	8486f65cc42b46e
+1	133	1636164299	src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/FastCVUtil.cpp.o	bc3c4bdb483efd4e
+133	221	1636164299	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so	984107a2ce8c33e6
+222	275	1636164299	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgTransform.so	859a6f9d10cf5c04
+221	290	1636164299	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvFeatDetect.so	8486f65cc42b46e
+222	295	1636164299	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgProc.so	f6dc126d273faa7a
+0	51	1636164368	src/main/cpp/source/utils/CMakeFiles/fastcvUtils.dir/FastCVUtil.cpp.o	bc3c4bdb483efd4e
+51	115	1636164368	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so	984107a2ce8c33e6
+115	159	1636164368	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvFeatDetect.so	8486f65cc42b46e
+115	160	1636164368	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgProc.so	f6dc126d273faa7a
+115	164	1636164368	../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgTransform.so	859a6f9d10cf5c04

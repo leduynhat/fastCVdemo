@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
         android:id="@+id/warp_p_u8"
-        android:title="fcvWarpPerspectiveu8" />    
+        android:title="@string/fcvwarpperspectiveu8" />
     <item
         android:id="@+id/warp_p_3channel"
-        android:title="fcv3ChannelWarpPerspectiveu8" /> 
+        android:title="@string/fcv3channelwarpperspectiveu8" />
     <item
         android:id="@+id/no_warp"
-        android:title="No Warp" />  	
+        android:title="@string/no_warp" />
 </menu>

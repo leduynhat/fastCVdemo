@@ -20,7 +20,7 @@ extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_utils_FastCVUtil_
 {
    char sVersion[32];  
    
-   fcvSetOperationMode( (fcvOperationMode) FASTCV_OP_PERFORMANCE );
+   fcvSetOperationMode( (fcvOperationMode) FASTCV_OP_CPU_OFFLOAD );
 
    fcvGetVersion(sVersion, 32);
    DPRINTF( "Using FastCV version %s \n", sVersion );

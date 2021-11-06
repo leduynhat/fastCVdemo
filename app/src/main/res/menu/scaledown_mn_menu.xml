@@ -2,26 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
         android:id="@+id/mn_one"
-        android:title="MN : 1" />
+        android:title="@string/mn_1" />
     <item
         android:id="@+id/mn_onefive"
-        android:title="MN : 1.5" />    
+        android:title="@string/mn_1_5" />
     <item
         android:id="@+id/mn_two"
-        android:title="MN : 2" />
+        android:title="@string/mn_2" />
 	<item
         android:id="@+id/mn_twofive"
-        android:title="MN : 2.5" />	
+        android:title="@string/mn_2_5" />
 	<item
         android:id="@+id/nn_one"
-        android:title="NN : 1" />
+        android:title="@string/nn_1" />
     <item
         android:id="@+id/nn_onefive"
-        android:title="NN : 1.5" />    
+        android:title="@string/nn_1_5" />
     <item
         android:id="@+id/nn_two"
-        android:title="NN : 2" />
+        android:title="@string/nn_2" />
 	<item
         android:id="@+id/nn_twofive"
-        android:title="NN : 2.5" />	
+        android:title="@string/nn_2_5" />
 </menu>

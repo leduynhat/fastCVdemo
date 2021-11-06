@@ -2,28 +2,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
         android:id="@+id/Gaussian3x3Filter"
-        android:title="Gaussian3x3Filter" />
+        android:title="@string/gaussian3x3filter" />
     <item
         android:id="@+id/Gaussian5x5Filter"
-        android:title="Gaussian5x5Filter" />    
+        android:title="@string/gaussian5x5filter" />
     <item
         android:id="@+id/Gaussian11x11Filter"
-        android:title="Gaussian11x11Filter" />
+        android:title="@string/gaussian11x11filter" />
     <item
         android:id="@+id/CannyFilter"
-        android:title="CannyFilter"  />
+        android:title="@string/cannyfilter"  />
     <item
         android:id="@+id/ErodeFilter"
-        android:title="ErodeFilter"  />
+        android:title="@string/erodefilter"  />
     <item
         android:id="@+id/DilateFilter"
-        android:title="DilateFilter"  />
+        android:title="@string/dilatefilter"  />
     <item
         android:id="@+id/MedianFilter"
-        android:title="MedianFilter"  />
+        android:title="@string/medianfilter"  />
     <item
         android:id="@+id/SobelFilter"
-        android:title="SobelFilter"  />
+        android:title="@string/sobelfilter"  />
     <item
         android:id="@+id/ThresholdFilter"
         android:title="ThresholdFilter"  />
