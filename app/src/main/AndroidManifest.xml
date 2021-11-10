@@ -1,138 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qualcomm.fastcvdemo"
+    android:configChanges="orientation|screenSize"
+    android:largeHeap="true"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
+
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera2.full" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    
+
     <application
-        android:icon="@drawable/ic_launcher" 
-        android:label="@string/app_name" 
->
-      
-        <activity 
-        android:name="com.qualcomm.fastcvdemo.apis.SplashScreen" 
-        android:screenOrientation="landscape"
-        android:theme="@android:style/Theme.NoTitleBar" >
-        <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
-      
-        <activity
-        android:name="com.qualcomm.fastcvdemo.apis.FastCVMainMenu"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
-        </activity>
-                      
-        <activity
-        android:name="com.qualcomm.fastcvdemo.apis.About"
-        android:label="@string/about">
-        </activity>
-      
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.imageProcessing.Filter"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_Filter">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>	
-      
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.imageProcessing.FilterCorr"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_FilterCorr">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>	
-      
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.imageProcessing.ImgDiff"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_ImgDiff">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>	
-      
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.imageProcessing.ImageGradient"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_ImageGradient">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>	
 
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.featureDetection.Corner"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_Corner">
+        <activity
+            android:name=".apis.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-        android:name="com.qualcomm.fastcvdemo.apis.featureDetection.CornerPrefs"
-        android:label="@string/settings">
-        </activity>
 
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.imageTransformation.Scale"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_Scale">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.SAMPLE_CODE" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-      
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.imageTransformation.Warp"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_Warp">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-              
         <activity
-            android:name="com.qualcomm.fastcvdemo.apis.imageTransformation.Affine"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_Affine">
+            android:name=".apis.FastCVMainMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".apis.About"
+            android:label="@string/about"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".apis.imageProcessing.Filter"
+            android:exported="true"
+            android:label="@string/activity_Filter"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-      
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.imageTransformation.Rotate"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_Rotate">
+        <activity
+            android:name=".apis.imageProcessing.FilterCorr"
+            android:exported="true"
+            android:label="@string/activity_FilterCorr"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name="com.qualcomm.fastcvdemo.apis.imageTransformation.ScaleDownMN"
-            android:screenOrientation="landscape"
-            android:label="@string/activity_ScaleDownMN">
+        <activity
+            android:name=".apis.imageProcessing.ImgDiff"
+            android:exported="true"
+            android:label="@string/activity_ImgDiff"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-      
+        <activity
+            android:name=".apis.imageProcessing.ImageGradient"
+            android:exported="true"
+            android:label="@string/activity_ImageGradient"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".apis.featureDetection.Corner"
+            android:exported="true"
+            android:label="@string/activity_Corner"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".apis.featureDetection.CornerPrefs"
+            android:label="@string/settings"></activity>
+        <activity
+            android:name=".apis.imageTransformation.Scale"
+            android:exported="true"
+            android:label="@string/activity_Scale"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".apis.imageTransformation.Warp"
+            android:exported="true"
+            android:label="@string/activity_Warp"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".apis.imageTransformation.Affine"
+            android:exported="true"
+            android:label="@string/activity_Affine"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".apis.imageTransformation.Rotate"
+            android:exported="true"
+            android:label="@string/activity_Rotate"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".apis.imageTransformation.ScaleDownMN"
+            android:exported="true"
+            android:label="@string/activity_ScaleDownMN"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
+
 </manifest>

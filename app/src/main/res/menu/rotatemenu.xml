@@ -2,6 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
         android:id="@+id/zero"
+        android:icon="@android:drawable/ic_menu_view"
         android:title="@string/_0_degrees" />
     <item
         android:id="@+id/ninety"

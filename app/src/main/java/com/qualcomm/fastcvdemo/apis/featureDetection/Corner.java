@@ -85,7 +85,7 @@ public class Corner extends GraphicalActivity{
     	switch( item.getItemId() ) 
     	{
     	case R.id.settings:
-    		Intent settingsActivity = 
+    		Intent settingsActivity =
     			new Intent( getBaseContext(), com.qualcomm.fastcvdemo.apis.featureDetection.CornerPrefs.class );
     		startActivity( settingsActivity );
     

@@ -19,7 +19,6 @@ import android.view.WindowManager;
 /** The splash screen activity for FastCV sample application */
 public class SplashScreen extends Activity 
 {
-    private WindowManager               mWindowManager;
     private SplashScreenView            mHomeView;
     public static Display               sDisplay;
     
@@ -27,7 +26,7 @@ public class SplashScreen extends Activity
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mWindowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
+        WindowManager mWindowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
         sDisplay = mWindowManager.getDefaultDisplay();
       
         // Initialize UI

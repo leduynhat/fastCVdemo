@@ -41,7 +41,7 @@
 		android:layout_toStartOf="@+id/startStopSwitch"
 		android:background="@android:drawable/btn_default"
 		android:checked="false"
-		android:textOff="ScaleDown"
-		android:textOn="StartPreview" />
-		
+		android:textOff="@string/scaledown"
+		android:textOn="@string/startpreview" />
+
 </RelativeLayout>

@@ -44,14 +44,14 @@ public class FastCVSampleRenderer
    implements GLSurfaceView.Renderer, EGLContextFactory
 {
    /** GL Surface for rendering */
-   private GLSurfaceView         mSurface;
+   private final GLSurfaceView         mSurface;
 
    /** Logging tag */
    private static final String   TAG               = "FastCVDemo";
    
    /**
     * Constructor
-    * @param context 
+    * @param context
     */
    public FastCVSampleRenderer( Context context )
    {
@@ -107,6 +107,8 @@ public class FastCVSampleRenderer
    public void onSurfaceChanged(GL10 gl, int w, int h) 
    {
        surfaceChanged(w, h);
+//       surfaceChanged(h, w);
+//       surfaceChanged(800, 480);
    }
 
    /**
@@ -244,9 +246,9 @@ public class FastCVSampleRenderer
          for(EGLConfig config : configs)
          {
             int d = findConfigAttrib(egl, display, config,
-                        EGL10.EGL_DEPTH_SIZE, 0);
+                        EGL10.EGL_DEPTH_SIZE);
             int s = findConfigAttrib(egl, display, config,
-                        EGL10.EGL_STENCIL_SIZE, 0);
+                        EGL10.EGL_STENCIL_SIZE);
 
             // We need at least mDepthSize and mStencilSize bits
             //
@@ -256,13 +258,13 @@ public class FastCVSampleRenderer
             // We want an *exact* match for red/green/blue/alpha
             //
             int r = findConfigAttrib(egl, display, config,
-                        EGL10.EGL_RED_SIZE, 0);
+                        EGL10.EGL_RED_SIZE);
             int g = findConfigAttrib(egl, display, config,
-                            EGL10.EGL_GREEN_SIZE, 0);
+                            EGL10.EGL_GREEN_SIZE);
             int b = findConfigAttrib(egl, display, config,
-                            EGL10.EGL_BLUE_SIZE, 0);
+                            EGL10.EGL_BLUE_SIZE);
             int a = findConfigAttrib(egl, display, config,
-                            EGL10.EGL_ALPHA_SIZE, 0);
+                            EGL10.EGL_ALPHA_SIZE);
 
             if (r == mRedSize &&
                 g == mGreenSize &&
@@ -275,21 +277,19 @@ public class FastCVSampleRenderer
      }
      /**
      * findConfigAttrib Gets the matching configuration attributes
-     * @param egl 
-     * @param display 
+     * @param egl
+     * @param display
      * @param config
      * @param attribute
-     * @param defaultValue
      * @return Returns the attribute value
      */
      private int findConfigAttrib(
-         EGL10 egl, EGLDisplay display, EGLConfig config, int attribute,
-         int defaultValue)
+             EGL10 egl, EGLDisplay display, EGLConfig config, int attribute)
      {
         if (egl.eglGetConfigAttrib(display, config, attribute, mValue))
              return mValue[0];
 
-        return defaultValue;
+        return 0;
      }
 
 
@@ -303,6 +303,6 @@ public class FastCVSampleRenderer
      protected int mAlphaSize;
      protected int mDepthSize;
      protected int mStencilSize;
-     private int[] mValue = new int[1];
+     private final int[] mValue = new int[1];
    }
 }

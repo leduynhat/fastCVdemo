@@ -7,8 +7,13 @@
 package com.qualcomm.fastcvdemo.apis;
 
 import com.qualcomm.fastcvdemo.R;
-import com.qualcomm.fastcvdemo.apis.SplashScreen;
+//import com.qualcomm.fastcvdemo.apis.SplashScreen;
 
+import android.annotation.SuppressLint;
+import android.content.res.Configuration;
+import android.support.v4.content.ContextCompat;
+//import android.support.
+import android.util.DisplayMetrics;
 import android.view.MotionEvent;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
@@ -16,6 +21,7 @@ import android.view.animation.Animation.AnimationListener;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.OvershootInterpolator;
 import android.view.animation.TranslateAnimation;
+//import android.view.View;
 import android.widget.ImageView;
 
 /** SplashScreenView is an ImageView for displaying the splash screen 
@@ -35,7 +41,11 @@ public class SplashScreenView extends ImageView {
 		mSplashScreen = splashScreen;
 		mFirstShow = true;
 
-		setBackgroundDrawable(getResources().getDrawable(R.drawable.splashscreen));
+//		setBackgroundDrawable(getResources().getDrawable(R.drawable.splashscreen));
+		if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+			setBackground(ContextCompat.getDrawable(mSplashScreen, R.drawable.splashscreen));
+		else
+			setBackground(ContextCompat.getDrawable(mSplashScreen, R.drawable.splashscreen1));
 	}
 
 	/**
@@ -50,8 +60,11 @@ public class SplashScreenView extends ImageView {
 	 * @param closedCallback the call back to invoke when the animation ends
 	 */
 	public void animateHiding(final Runnable closedCallback) {
-		//stopFlickering();
-		int displayWidth = SplashScreen.sDisplay.getWidth();
+		//stopFlickering()
+//		int displayWidth = SplashScreen.sDisplay.getWidth();
+		DisplayMetrics displayMetrics = new DisplayMetrics();
+		SplashScreen.sDisplay.getMetrics(displayMetrics);
+		int displayWidth = displayMetrics.widthPixels;
 		TranslateAnimation anim = new TranslateAnimation(0, -displayWidth, 0, 0);
 		  anim.setInterpolator(new AccelerateInterpolator());
 	      anim.setDuration(300);
@@ -78,6 +91,7 @@ public class SplashScreenView extends ImageView {
 	 * Called when a touch screen motion event occurs.
 	 * @param event The motion event
 	 */
+	@SuppressLint("ClickableViewAccessibility")
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 		if (event.getAction() == MotionEvent.ACTION_DOWN) {
@@ -138,7 +152,10 @@ public class SplashScreenView extends ImageView {
 	 * Start the animation .
 	 */
 	private void animateStartup() {
-		int displayHeight = SplashScreen.sDisplay.getHeight();
+//		int displayHeight = SplashScreen.sDisplay.getHeight();
+		DisplayMetrics displayMetrics = new DisplayMetrics();
+		SplashScreen.sDisplay.getMetrics(displayMetrics);
+		int displayHeight = displayMetrics.heightPixels;
 		Animation anim = new TranslateAnimation(0, 0, displayHeight, 0);
 		  anim.setInterpolator(new OvershootInterpolator());
 	      anim.setDuration(600);
@@ -156,7 +173,10 @@ public class SplashScreenView extends ImageView {
 	 * Reenter the animation .
 	 */
 	private void animateReenter() {
-		int displayWidth = SplashScreen.sDisplay.getWidth();
+//		int displayWidth = SplashScreen.sDisplay.getWidth();
+		DisplayMetrics displayMetrics = new DisplayMetrics();
+		SplashScreen.sDisplay.getMetrics(displayMetrics);
+		int displayWidth = displayMetrics.widthPixels;
 		Animation anim = new TranslateAnimation(displayWidth, 0, 0, 0);
 		  anim.setInterpolator(new DecelerateInterpolator());
 	      anim.setDuration(250);

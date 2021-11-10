@@ -284,8 +284,9 @@ bool CameraRendererRGB565GL2::CreateTextures()
 
    // Use landscape mode per default
    for(size_t i=0; i<20; i++)
-      mVertices[i] = mLandscapeVertices[i];
-   
+//      mVertices[i] = mLandscapeVertices[i];
+      mVertices[i] = mPortraitVertices[i];
+
    if(!mNPOTTextures)
    {
       int texWidth = getNextPowerOfTwo(mWidth);
