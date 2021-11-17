@@ -132,7 +132,7 @@ void updateAffine( uint8_t *pSrc, uint32_t w, uint32_t h, uint8_t *pDst )
 				}
 			}
 			break;
-		
+
 		default:
 			memcpy(pDst, pSrc, w*h);
 			break;
@@ -199,6 +199,7 @@ extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransfo
 
 	// Get data from JNI
 	jimgData = env->GetByteArrayElements( img, &isCopy );
+//	DPRINTF("update: data [580095]= %d, [576000]= %d, [575999]= %d, [384000]= %d", jimgData[580095], jimgData[576000], jimgData[575999], jimgData[384000]);
 
 	renderBuffer = getRenderBuffer( w, h );
 
@@ -235,6 +236,8 @@ extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransfo
 		memcpy( affineState.alignedImgBuf, jimgData, w*h*3/2 );
 		pJimgData = affineState.alignedImgBuf;
 	}
+	DPRINTF("update: data  [575999]= %d, [384000]= %d",affineState.alignedImgBuf[575999], affineState.alignedImgBuf[384000]);
+//	DPRINTF("update: data [580095]= %d, [576000]= %d, [575999]= %d, [384000]= %d", *(pJimgData+580095), *(pJimgData+576000), *(pJimgData+575999), *(pJimgData+384000));
 
 	// Perform FastCV Function processing
 	switch( affineState.affineType )
@@ -258,7 +261,7 @@ extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageTransfo
 	// Update image
 	timeMs = ( util.getTimeMicroSeconds() - time ) / 1000.f;
 	util.setProcessTime((util.getProcessTime()*(29.f/30.f))+(float)(timeMs/30.f));
-
+//	DPRINTF("Hello cac ban, buffer size %d, chieu dai %d, chieu rong %d", sizeof(affineState.affineImgBuf), h, w);
 	unlockRenderBuffer();
 
 	// Let JNI know we don't need data anymore

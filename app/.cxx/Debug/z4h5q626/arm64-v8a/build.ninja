@@ -434,6 +434,79 @@ build src/main/cpp/source/apis/imageTransformation/CMakeFiles/edit_cache.util: C
   restat = 1
 build src/main/cpp/source/apis/imageTransformation/edit_cache: phony src/main/cpp/source/apis/imageTransformation/CMakeFiles/edit_cache.util
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/main/cpp/source/apis/preprocessing/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/apis/preprocessing && /usr/bin/cmake -H/home/nhatld5/AndroidStudioProjects/FastcvDemo/app -B/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+build src/main/cpp/source/apis/preprocessing/rebuild_cache: phony src/main/cpp/source/apis/preprocessing/CMakeFiles/rebuild_cache.util
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target preprocessing
+
+
+#############################################
+# Order-only phony target for preprocessing
+
+build cmake_object_order_depends_target_preprocessing: phony || cmake_object_order_depends_target_fastcvUtils
+build src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/PreProcessing.cpp.o: CXX_COMPILER__preprocessing ../../../../src/main/cpp/source/apis/preprocessing/PreProcessing.cpp || cmake_object_order_depends_target_preprocessing
+  DEFINES = -Dpreprocessing_EXPORTS
+  DEP_FILE = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/PreProcessing.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/preprocessing
+  OBJECT_DIR = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir
+  OBJECT_FILE_DIR = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir
+build src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/utils.cpp.o: CXX_COMPILER__preprocessing ../../../../src/main/cpp/source/apis/preprocessing/utils.cpp || cmake_object_order_depends_target_preprocessing
+  DEFINES = -Dpreprocessing_EXPORTS
+  DEP_FILE = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/utils.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/preprocessing
+  OBJECT_DIR = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir
+  OBJECT_FILE_DIR = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir
+build src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/__/About.cpp.o: CXX_COMPILER__preprocessing ../../../../src/main/cpp/source/apis/About.cpp || cmake_object_order_depends_target_preprocessing
+  DEFINES = -Dpreprocessing_EXPORTS
+  DEP_FILE = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/__/About.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/preprocessing
+  OBJECT_DIR = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir
+  OBJECT_FILE_DIR = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/__
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target preprocessing
+
+
+#############################################
+# Link the shared library ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libpreprocessing.so
+
+build ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libpreprocessing.so: CXX_SHARED_LIBRARY_LINKER__preprocessing src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/PreProcessing.cpp.o src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/utils.cpp.o src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/__/About.cpp.o | ../../../../src/main/jniLibs/libfastcv.a /home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/liblog.so /home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libGLESv2.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so ../../../../src/main/jniLibs/libfastcv.a /home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/liblog.so /home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libGLESv2.so || ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
+  LINK_LIBRARIES = ../../../../src/main/jniLibs/libfastcv.a /home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/liblog.so /home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libGLESv2.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so ../../../../src/main/jniLibs/libfastcv.a /home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/liblog.so /home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libGLESv2.so -latomic -lm
+  OBJECT_DIR = src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libpreprocessing.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libpreprocessing.so
+  TARGET_PDB = preprocessing.so.dbg
+
+#############################################
+# Utility command for edit_cache
+
+build src/main/cpp/source/apis/preprocessing/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/apis/preprocessing && /usr/bin/cmake-gui -H/home/nhatld5/AndroidStudioProjects/FastcvDemo/app -B/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+build src/main/cpp/source/apis/preprocessing/edit_cache: phony src/main/cpp/source/apis/preprocessing/CMakeFiles/edit_cache.util
+# =============================================================================
 # Target aliases.
 
 build fastcvFeatDetect: phony ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvFeatDetect.so
@@ -444,6 +517,8 @@ build libfastcvFeatDetect.so: phony ../../../../build/intermediates/cxx/Debug/z4
 build libfastcvImgProc.so: phony ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgProc.so
 build libfastcvImgTransform.so: phony ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgTransform.so
 build libfastcvUtils.so: phony ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so
+build libpreprocessing.so: phony ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libpreprocessing.so
+build preprocessing: phony ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libpreprocessing.so
 # =============================================================================
 # Folder targets.
 
@@ -459,7 +534,7 @@ build  src/main/cpp/source/all: phony src/main/cpp/source/utils/all src/main/cpp
 #############################################
 # Folder: /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/apis
 
-build  src/main/cpp/source/apis/all: phony src/main/cpp/source/apis/featureDetection/all src/main/cpp/source/apis/imageProcessing/all src/main/cpp/source/apis/imageTransformation/all
+build  src/main/cpp/source/apis/all: phony src/main/cpp/source/apis/featureDetection/all src/main/cpp/source/apis/imageProcessing/all src/main/cpp/source/apis/imageTransformation/all src/main/cpp/source/apis/preprocessing/all
 # =============================================================================
 
 #############################################
@@ -481,6 +556,12 @@ build  src/main/cpp/source/apis/imageTransformation/all: phony fastcvImgTransfor
 # =============================================================================
 
 #############################################
+# Folder: /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/apis/preprocessing
+
+build  src/main/cpp/source/apis/preprocessing/all: phony preprocessing
+# =============================================================================
+
+#############################################
 # Folder: /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/utils
 
 build  src/main/cpp/source/utils/all: phony fastcvUtils
@@ -491,7 +572,7 @@ build  src/main/cpp/source/utils/all: phony fastcvUtils
 #############################################
 # The main all target.
 
-build all: phony ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvFeatDetect.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgProc.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgTransform.so
+build all: phony ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvUtils.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvFeatDetect.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgProc.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libfastcvImgTransform.so ../../../../build/intermediates/cxx/Debug/z4h5q626/obj/arm64-v8a/libpreprocessing.so
 
 #############################################
 # Make the all target the default.
@@ -501,13 +582,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../../../../CMakeLists.txt ../../../../src/main/cpp/source/CMakeLists.txt ../../../../src/main/cpp/source/apis/CMakeLists.txt ../../../../src/main/cpp/source/apis/featureDetection/CMakeLists.txt ../../../../src/main/cpp/source/apis/imageProcessing/CMakeLists.txt ../../../../src/main/cpp/source/apis/imageTransformation/CMakeLists.txt ../../../../src/main/cpp/source/utils/CMakeLists.txt /home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake /home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake /usr/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c /usr/share/cmake-3.10/Modules/CMakeCInformation.cmake /usr/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.10/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang.cmake /usr/share/cmake-3.10/Modules/Compiler/GNU.cmake /usr/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Determine.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /usr/share/cmake-3.10/Modules/Platform/Android.cmake /usr/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake /usr/share/cmake-3.10/Modules/Platform/Linux.cmake /usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx
+build build.ninja: RERUN_CMAKE | ../../../../CMakeLists.txt ../../../../src/main/cpp/source/CMakeLists.txt ../../../../src/main/cpp/source/apis/CMakeLists.txt ../../../../src/main/cpp/source/apis/featureDetection/CMakeLists.txt ../../../../src/main/cpp/source/apis/imageProcessing/CMakeLists.txt ../../../../src/main/cpp/source/apis/imageTransformation/CMakeLists.txt ../../../../src/main/cpp/source/apis/preprocessing/CMakeLists.txt ../../../../src/main/cpp/source/utils/CMakeLists.txt /home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake /home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake /usr/share/cmake-3.10/Modules/CMakeCInformation.cmake /usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang.cmake /usr/share/cmake-3.10/Modules/Compiler/GNU.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /usr/share/cmake-3.10/Modules/Platform/Android.cmake /usr/share/cmake-3.10/Modules/Platform/Linux.cmake /usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../../../../CMakeLists.txt ../../../../src/main/cpp/source/CMakeLists.txt ../../../../src/main/cpp/source/apis/CMakeLists.txt ../../../../src/main/cpp/source/apis/featureDetection/CMakeLists.txt ../../../../src/main/cpp/source/apis/imageProcessing/CMakeLists.txt ../../../../src/main/cpp/source/apis/imageTransformation/CMakeLists.txt ../../../../src/main/cpp/source/utils/CMakeLists.txt /home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake /home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake /usr/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c /usr/share/cmake-3.10/Modules/CMakeCInformation.cmake /usr/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.10/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang.cmake /usr/share/cmake-3.10/Modules/Compiler/GNU.cmake /usr/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Determine.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /usr/share/cmake-3.10/Modules/Platform/Android.cmake /usr/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake /usr/share/cmake-3.10/Modules/Platform/Linux.cmake /usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx: phony
+build ../../../../CMakeLists.txt ../../../../src/main/cpp/source/CMakeLists.txt ../../../../src/main/cpp/source/apis/CMakeLists.txt ../../../../src/main/cpp/source/apis/featureDetection/CMakeLists.txt ../../../../src/main/cpp/source/apis/imageProcessing/CMakeLists.txt ../../../../src/main/cpp/source/apis/imageTransformation/CMakeLists.txt ../../../../src/main/cpp/source/apis/preprocessing/CMakeLists.txt ../../../../src/main/cpp/source/utils/CMakeLists.txt /home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake /home/nhatld5/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake /usr/share/cmake-3.10/Modules/CMakeCInformation.cmake /usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.10/Modules/Compiler/Clang.cmake /usr/share/cmake-3.10/Modules/Compiler/GNU.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /usr/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /usr/share/cmake-3.10/Modules/Platform/Android.cmake /usr/share/cmake-3.10/Modules/Platform/Linux.cmake /usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
 
 #############################################
 # Clean all the built files.

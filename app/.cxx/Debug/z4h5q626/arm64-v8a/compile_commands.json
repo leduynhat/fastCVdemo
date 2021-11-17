@@ -105,5 +105,23 @@
   "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
   "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DfastcvImgTransform_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/imageTransformation  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/imageTransformation/CMakeFiles/fastcvImgTransform.dir/__/About.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp",
   "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dpreprocessing_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/preprocessing  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/PreProcessing.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/preprocessing/PreProcessing.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/preprocessing/PreProcessing.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dpreprocessing_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/preprocessing  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/utils.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/preprocessing/utils.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/preprocessing/utils.cpp"
+},
+
+{
+  "directory": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a",
+  "command": "/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/nhatld5/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dpreprocessing_EXPORTS -I../../../../src/main/cpp/include -I../../../../src/main/cpp/include/apis -I../../../../src/main/cpp/include/apis/preprocessing  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o src/main/cpp/source/apis/preprocessing/CMakeFiles/preprocessing.dir/__/About.cpp.o -c /home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp",
+  "file": "/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/src/main/cpp/source/apis/About.cpp"
 }
 ]

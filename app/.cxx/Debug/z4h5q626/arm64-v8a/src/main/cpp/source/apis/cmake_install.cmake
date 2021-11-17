@@ -42,6 +42,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/apis/featureDetection/cmake_install.cmake")
   include("/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/apis/imageProcessing/cmake_install.cmake")
   include("/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/apis/imageTransformation/cmake_install.cmake")
+  include("/home/nhatld5/AndroidStudioProjects/FastcvDemo/app/.cxx/Debug/z4h5q626/arm64-v8a/src/main/cpp/source/apis/preprocessing/cmake_install.cmake")
 
 endif()
 

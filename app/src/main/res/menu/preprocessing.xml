@@ -1,34 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item
-        android:icon="@android:drawable/checkbox_on_background"
-        android:id="@+id/nuc2p"
-        android:title="@string/nuc2p" />
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android" >-->
 <!--    <item-->
-<!--        android:id="@+id/Gaussian5x5Filter"-->
-<!--        android:title="@string/gaussian5x5filter" />-->
+<!--        android:icon="@android:drawable/checkbox_on_background"-->
+<!--        android:id="@+id/nuc2p"-->
+<!--        android:title="@string/nuc2p" />-->
 <!--    <item-->
-<!--        android:id="@+id/Gaussian11x11Filter"-->
-<!--        android:title="@string/gaussian11x11filter" />-->
-<!--    <item-->
-<!--        android:id="@+id/CannyFilter"-->
-<!--        android:title="@string/cannyfilter"  />-->
-<!--    <item-->
-<!--        android:id="@+id/ErodeFilter"-->
-<!--        android:title="@string/erodefilter"  />-->
-<!--    <item-->
-<!--        android:id="@+id/DilateFilter"-->
-<!--        android:title="@string/dilatefilter"  />-->
-<!--    <item-->
-<!--        android:id="@+id/MedianFilter"-->
-<!--        android:title="@string/medianfilter"  />-->
-<!--    <item-->
-<!--        android:id="@+id/SobelFilter"-->
-<!--        android:title="@string/sobelfilter"  />-->
-<!--    <item-->
-<!--        android:id="@+id/ThresholdFilter"-->
-<!--        android:title="ThresholdFilter"  />-->
-    <item
-        android:id="@+id/Reset"
-        android:title="Reset"  />
+<!--        android:id="@+id/Reset"-->
+<!--        android:title="Reset"  />-->
+<!--</menu>-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="all">
+    <item android:id="@+id/nuc2p"
+        android:checkable="true"
+        android:checked="false"
+        android:titleCondensed="Options"
+        android:title="@string/nuc2p"
+        android:icon="@android:drawable/ic_menu_preferences">
+    </item>
+    <item android:id="@+id/hello"
+        android:titleCondensed="Options"
+        android:title="DPR"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:checkable="true">
+    </item>
+    <item android:id="@+id/chao"
+        android:titleCondensed="Options"
+        android:title="CNR"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:checkable="true">
+    </item>
+    <item android:id="@+id/hi"
+        android:titleCondensed="Options"
+        android:title="Local AGC"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:checkable="true">
+    </item>
+    <item android:id="@+id/Reset"
+        android:titleCondensed="Persist"
+        android:title="@string/reset"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:checkable="false">
+    </item>
+</group>
 </menu>

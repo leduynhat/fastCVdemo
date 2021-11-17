@@ -92,7 +92,7 @@
         </activity>
         <activity
             android:name=".apis.featureDetection.CornerPrefs"
-            android:label="@string/settings"></activity>
+            android:label="@string/settings" />
         <activity
             android:name=".apis.imageTransformation.Scale"
             android:exported="true"
@@ -148,6 +148,18 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".apis.preprocessing.PreProcessing"
+            android:exported="true"
+            android:label="@string/prepro"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

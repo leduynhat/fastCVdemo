@@ -66,7 +66,8 @@
     <string name="scaledown">ScaleDown</string>
    <string name="startpreview">StartPreview</string>
    <string name="nuc2p">NUC2P</string>
-   <string-array name="CameraOnOffArray">
+    <string name="prepro">Preprocessing</string>
+    <string-array name="CameraOnOffArray">
       <item>Viewfinder On </item>
       <item>Viewfinder Off </item>
    </string-array>

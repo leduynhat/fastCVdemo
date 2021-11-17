@@ -286,7 +286,7 @@ extern "C" JNIEXPORT void JNICALL Java_com_qualcomm_fastcvdemo_apis_imageProcess
    updateFilter( (uint8_t*)pJimgData, w, h, (uint8_t*)pFilteringData );
 
    // Copy the image first in our own buffer to avoid corruption during
-   // rendering. Not that we can still have corruption in image while we do
+   // rendering. Note that we can still have corruption in image while we do
    // copy but we can't help that.
 
    colorConvertYUV420ToRGB565Renderer(pFilteringData,

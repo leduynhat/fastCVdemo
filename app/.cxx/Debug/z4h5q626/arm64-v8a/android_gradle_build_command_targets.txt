@@ -6,5 +6,6 @@ fastcvFeatDetect
 fastcvImgProc
 fastcvImgTransform
 fastcvUtils
+preprocessing
 jvmArgs : 
 

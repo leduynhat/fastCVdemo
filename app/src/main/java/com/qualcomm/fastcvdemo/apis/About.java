@@ -39,7 +39,6 @@ public class About extends PreferenceActivity
    {
       super.onCreate(savedInstanceState);
       addPreferencesFromResource( R.xml.about );
-//      getFragmentManager().beginTransaction().replace(android.R.id.content, new AboutFragment()).commit();
       if (aboutScreen == null)
       {
          String fastcvVersion = getFastCVVersion();
@@ -50,21 +49,20 @@ public class About extends PreferenceActivity
          versionNumberScreen.setTitle(getString(R.string.versionNumber_text));
          versionNumberScreen.setSummary(fastcvVersion);
          aboutScreen.addPreference(versionNumberScreen);
+
+         versionNumberScreen = getPreferenceManager().createPreferenceScreen(this);
+         versionNumberScreen.setTitle("Redesigned ");
+         versionNumberScreen.setSummary("by Le Duy Nhat");
+         aboutScreen.addPreference(versionNumberScreen);
+
+         versionNumberScreen = getPreferenceManager().createPreferenceScreen(this);
+         versionNumberScreen.setTitle("New feature");
+         versionNumberScreen.setSummary("Preprocessing");
+         aboutScreen.addPreference(versionNumberScreen);
       }
       setPreferenceScreen(aboutScreen);
    }
 
    //Native Function Declarations   
    public native String getFastCVVersion();
-
-   public static class AboutFragment extends PreferenceFragment
-   {
-      @SuppressLint("ResourceType")
-      @Override
-      public void onCreate(final Bundle savedInstanceState)
-      {
-         super.onCreate(savedInstanceState);
-         addPreferencesFromResource(R.xml.about);
-      }
-   }
 }

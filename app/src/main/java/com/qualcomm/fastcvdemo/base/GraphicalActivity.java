@@ -159,7 +159,7 @@ public abstract class GraphicalActivity extends Activity {
                 public void onPreviewFrame(byte[] data, Camera c) {
                     // Increment FPS counter for camera.
                     util.cameraFrameTick();
-
+//                    Log.i(TAG, "onPreviewFrame: data [580095]= " + data[580095] + ", [576000]= " + data[576000] + ", [575999]= " + data[575999] + ", [384000]= " + data[384000]);
                     // Perform processing on the camera preview data.
                     update(data, mDesiredWidth, mDesiredHeight);
 
@@ -167,7 +167,7 @@ public abstract class GraphicalActivity extends Activity {
                     mProcessTime = util.getFastCVProcessTime();
 
                     if (c != null) {
-                        // with buffer requires addbuffer each callback frame.
+                        // with buffer requires add buffer each callback frame.
                         c.addCallbackBuffer(mPreviewBuffer);
                         c.setPreviewCallbackWithBuffer(this);
                     }
@@ -364,7 +364,7 @@ public abstract class GraphicalActivity extends Activity {
         mDesiredWidth = list.width;
         mDesiredHeight = list.height;
         for (Camera.Size s : sizes) {
-            Log.i(TAG, "Supported Preview Size: h:" + s.height + ", w: " + s.width);
+//            Log.i(TAG, "Supported Preview Size: h:" + s.height + ", w: " + s.width);
             if (s.height == _desiredHeight) {
                 mDesiredWidth = s.width;
                 mDesiredHeight = s.height;
@@ -400,6 +400,9 @@ public abstract class GraphicalActivity extends Activity {
                 Log.v(TAG, "Set focus mode AUTO");
             }
         }
+        else{
+            Log.i(TAG, "setupCamera: cannot set focus");
+        }
         //
         // Set White Balance to Auto if supported.
         //
@@ -412,6 +415,9 @@ public abstract class GraphicalActivity extends Activity {
                         )) {
             parameters.setWhiteBalance(Camera.Parameters.WHITE_BALANCE_AUTO);
             Log.v(TAG, "Set white balance AUTO");
+        }
+        else{
+            Log.i(TAG, "setupCamera: cannot set white balance");
         }
 
         try {
@@ -501,6 +507,9 @@ public abstract class GraphicalActivity extends Activity {
         // with buffer requires addbuffer.
         mCamera.addCallbackBuffer(mPreviewBuffer);
         mCamera.setPreviewCallbackWithBuffer(mCameraCallback);
+//        Log.i(TAG, "setCallback: bit per pixel: " + bitsPerPixel);
+        Log.i(TAG, "setCallback: buffer size: " + bufferSize);
+        Log.i(TAG, "setCallback: " + info.bytesPerPixel);
     }
 
     /**
@@ -541,5 +550,13 @@ public abstract class GraphicalActivity extends Activity {
             mGLSurface.setRotation(90);
             Log.i(TAG, "Camera portrait, now change to landscape");
         }
+    }
+
+    public int getmDesiredWidth(){
+        return mPreviewWidth;
+    }
+
+    public int getmDesiredHeight(){
+        return mPreviewHeight;
     }
 }
