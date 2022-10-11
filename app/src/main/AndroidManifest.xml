@@ -92,7 +92,8 @@
         </activity>
         <activity
             android:name=".apis.featureDetection.CornerPrefs"
-            android:label="@string/settings"></activity>
+            android:label="@string/settings">
+        </activity>
         <activity
             android:name=".apis.imageTransformation.Scale"
             android:exported="true"

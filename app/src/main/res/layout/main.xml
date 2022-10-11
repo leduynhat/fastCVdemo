@@ -23,16 +23,16 @@
 		android:layout_below="@+id/text2"
 		android:text="@string/textview01_text" />
 
-	<ToggleButton android:id="@+id/startStopSwitch"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:textOn=""
-        android:textOff=""         
-        android:checked="true"       
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="10dip"
-        android:background="@android:drawable/btn_default"
-        android:button="@drawable/start_stop_button">
-    </ToggleButton>
+	<ToggleButton
+		android:id="@+id/startStopSwitch"
+		android:layout_width="40dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="10dip"
+		android:background="@android:drawable/btn_default"
+		android:button="@drawable/start_stop_button"
+		android:checked="true"
+		android:textOff=""
+		android:textOn=""></ToggleButton>
 
 </RelativeLayout>

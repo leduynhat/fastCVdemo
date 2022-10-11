@@ -49,7 +49,13 @@ public class About extends PreferenceActivity
          PreferenceScreen versionNumberScreen = getPreferenceManager().createPreferenceScreen(this);
          versionNumberScreen.setTitle(getString(R.string.versionNumber_text));
          versionNumberScreen.setSummary(fastcvVersion);
+
+         PreferenceScreen editorScreen = getPreferenceManager().createPreferenceScreen(this);
+         editorScreen.setTitle("Last Edited by");
+         editorScreen.setSummary("Le Duy Nhat");
+
          aboutScreen.addPreference(versionNumberScreen);
+         aboutScreen.addPreference(editorScreen);
       }
       setPreferenceScreen(aboutScreen);
    }
